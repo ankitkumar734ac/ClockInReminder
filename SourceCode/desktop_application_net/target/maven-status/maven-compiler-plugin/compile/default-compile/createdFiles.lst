@@ -1,0 +1,7 @@
+com\ca\services\NetworkServices.class
+com\ca\main\LoginController.class
+com\ca\services\DataServices.class
+com\ca\main\App$1.class
+com\ca\main\LogoutController.class
+com\ca\main\App.class
+module-info.class

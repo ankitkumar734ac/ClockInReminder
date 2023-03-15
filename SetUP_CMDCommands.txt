@@ -1,0 +1,60 @@
+javaw --module-path C:\Java\jars\javafx-sdk-19\lib --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media,javafx.swing,javafx.web -jar desktop_application_01-0.0.1-SNAPSHOT.jar
+
+
+
+--module-path C:\Java\jars\javafx-sdk-19\lib --add-modules javafx.controls,javafx.fxml
+
+
+java -m com.ca.main/com.ca.main.App
+
+
+
+
+C:\Java\jdk-18.0.1.1\bin\javaw.exe -Dfile.encoding=windows-1252 -Dsun.stdout.encoding=windows-1252 -Dsun.stderr.encoding=windows-1252 -jar C:\Users\ca\IdeaProjects\desktop_application_ij\target\main-1.0-SNAPSHOT-shaded.jar
+
+			CMD
+
+netsh interface show interface
+
+netsh interface set interface "Ethernet" disable
+
+netsh interface set interface "Ethernet" enable
+
+netsh interface set interface "Wi-Fi" disable
+
+
+			Powersell
+Get-NetAdapter | format-list
+Disable-NetAdapter -Name "Ethernet" -Confirm:$false
+Enable-NetAdapter -Name "Ethernet" -Confirm:$false
+
+
+Please find the requirements below
+
+1: It will start automatically means if some one shut down the laptop and then open again it will start. Easy thing to do.
+
+2: we supposed to login into this application and if we are not logged in it will block all the outgoing to connection. Means people can not access internet at all
+
+
+
+JAVA_HOME loc
+%JAVA_HOME%\bin
+
+
+set path=C:\Program Files (x86)\Cloud_Analogy\NetworkAppJ\jre64\bin
+java
+
+
+Cloud_Analogy
+NetworkAppJ
+
+
+
+
+=============================================================
+Create a .bat file and put this inside:
+
+javaw -Xmx200m -jar C:\Path\to\jarfile\TheJar.jar
+
+Then put the .bat file into the windows startup folder.
+==============================================================

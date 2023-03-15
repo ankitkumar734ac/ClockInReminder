@@ -1,0 +1,1 @@
+C:\Java\jdk-18.0.1.1\bin\javaw.exe -Dfile.encoding=windows-1252 -Dsun.stdout.encoding=windows-1252 -Dsun.stderr.encoding=windows-1252 -jar C:\Users\ca\IdeaProjects\desktop_application_ij\target\main-1.0-SNAPSHOT-shaded.jar
